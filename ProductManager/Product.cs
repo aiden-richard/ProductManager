@@ -20,5 +20,15 @@ namespace ProductManager
         /// The user facing name of the product
         /// </summary>
         public required string Name { get; set; }
+
+        /// <summary>
+        /// Manufacturer's Suggested Retail Price
+        /// </summary>
+        public double MSRP { get; set; }
+
+        /// <summary>
+        /// The number of units of this product in stock
+        /// </summary>
+        public int Quantity { get; set; }
     }
 }
