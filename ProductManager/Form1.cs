@@ -16,5 +16,13 @@ namespace ProductManager
         {
             this.Close();
         }
+
+        private void btnAddProduct_Click(object sender, EventArgs e)
+        {
+            Product p = new()
+            {
+                Name = txtProductName.Text
+            };
+        }
     }
 }
