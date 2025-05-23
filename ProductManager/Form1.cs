@@ -11,5 +11,10 @@ namespace ProductManager
         {
             MessageBox.Show("Hello Source Control");
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
